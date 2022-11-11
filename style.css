@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Harmond;
+    src: url(font_data/Harmond-SemBdItaCond\_600.otf);
+}
+
+@font-face {
+    font-family: AGarmondPro-Bold;
+    src: url(font_data/AGaramondPro-Bold.otf);
+}
+
+@font-face {
+    font-family: AGarmondPro-Regular;
+    src: url(font_data/AGaramondPro-Regular.otf);
+}
+
+body {
+    background-color: #191919;
+    font-family: 'AgarmondPro-Regular';
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Harmond';
+    font-size: 3.5em;
+}
+
+h2 {
+    font-family: 'Harmond';
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Harmond';
+    font-size: 1em;
+}
+
+#container {
+    position: relative;
+    width: 794px;
+    height: 1123px;
+    background-color: #111111;
+    margin: 0 auto;
+}
+
+#header-background {
+    padding: 40px 40px 0px 40px;
+}
+
+#middle-background {
+    padding: 0px 40px 0px 40px;
+    background-image: url("image_data//background.jpg");
+    background-size: cover;
+}
+
+#footer-background {
+    padding: 0px 40px 40px 40px;
+}
+
+#header {
+    height: 200px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle {
+    height: 600px;
+    border: 1px solid white;
+    border-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer {
+    height: 100px;
+    border: 1px solid white;
+    border-top: 0px;
+    display: flex;
+}
+
+#profile_picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+}
+
+#profile_picture_background {
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    width: 300px;
+    height: 300px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.2em;
+    height: 50px;
+}
+
+.initials {
+    position: relative;
+}
+
+.profile-border {
+    position: absolute;
+    top: 63px;
+    left: 215px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.star-left {
+    width: 100px;
+    margin-right: 70px;
+    margin-top: 120px;
+}
+
+.star-right {
+    width: 100px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
